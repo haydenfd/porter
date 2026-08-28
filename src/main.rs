@@ -1,7 +1,7 @@
 mod cli;
-mod ports;
 
 use cli::Command;
+use porter_core::ports;
 
 fn main() {
     let command = cli::parse_command();
